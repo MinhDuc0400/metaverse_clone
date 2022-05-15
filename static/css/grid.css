@@ -35,6 +35,19 @@
     display: none;
 }
 
+/*flex short hand for 
+flex-grow
+flex-shrink
+flex-basis*/
+
+/*ex: flex: 0 0 8.3333%
+
+-> flex-grow: 0
+-> flex-shrink: 0
+-> flex-basis: 8.3333%*/
+
+
+/*divide parent's width into 12 col. each col's width is 100/12 ~ 8.333% of parent*/
 .c-1 {
     flex: 0 0 8.33333%;
     max-width: 8.33333%;
@@ -100,6 +113,8 @@
     flex: 0 0 100%;
     max-width: 100%;
 }
+/*.c-o-x*/
+/*insert x empty col to the left of item*/
 
 .c-o-1 {
     margin-left: 8.33333%;
